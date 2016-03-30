@@ -1,16 +1,19 @@
 # RealALU
 **Input**
-inA (7:0)
-inB (7:0)
-aluOp (3:0)
+
+* inA (7:0)
+* inB (7:0)
+* aluOp (3:0)
 
 **Output**
-aluOut (0:7)
-V _overflow, 1 se C != aluOut[7]_
-C _carry, = aluOut[8]_
-Z _zero, 1 se out == 00000000_
+
+* aluOut (0:7)
+* V _overflow, 1 se C != aluOut[7]_
+* C _carry, = aluOut[8]_
+* Z _zero, 1 se out == 00000000_
 
 **Comandi**
+
 ```
 0 | 0000 | inA and inB | Logica
 1 | 0001 | inA or inB  | Logica
