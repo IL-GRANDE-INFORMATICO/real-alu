@@ -60,6 +60,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M61,51 Q65,61 69,51" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="30" x="50" y="50"/>
+      <text font-family="SansSerif" font-size="28" text-anchor="middle" x="65" y="76">&amp;</text>
+      <circ-port height="8" pin="120,100" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="120,140" width="8" x="46" y="66"/>
+      <circ-port height="10" pin="300,120" width="10" x="75" y="55"/>
+      <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
+    </appear>
     <wire from="(120,140)" to="(180,140)"/>
     <wire from="(120,100)" to="(180,100)"/>
     <wire from="(230,120)" to="(300,120)"/>
@@ -90,6 +99,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M61,51 Q65,61 69,51" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="30" x="50" y="50"/>
+      <text font-family="SansSerif" font-size="24" text-anchor="middle" x="65" y="71">|</text>
+      <circ-port height="8" pin="120,100" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="120,140" width="8" x="46" y="66"/>
+      <circ-port height="10" pin="300,120" width="10" x="75" y="55"/>
+      <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
+    </appear>
     <wire from="(120,100)" to="(180,100)"/>
     <wire from="(120,140)" to="(180,140)"/>
     <wire from="(230,120)" to="(300,120)"/>
@@ -120,6 +138,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M61,56 Q65,66 69,56" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="30" x="50" y="55"/>
+      <text font-family="SansSerif" font-size="28" text-anchor="middle" x="65" y="81">!</text>
+      <circ-port height="8" pin="110,80" width="8" x="46" y="66"/>
+      <circ-port height="10" pin="240,80" width="10" x="75" y="65"/>
+      <circ-anchor facing="east" height="6" width="6" x="77" y="67"/>
+    </appear>
     <wire from="(190,80)" to="(240,80)"/>
     <wire from="(110,80)" to="(160,80)"/>
     <comp lib="1" loc="(190,80)" name="NOT Gate">
@@ -143,6 +169,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M61,56 Q65,66 69,56" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="30" x="50" y="55"/>
+      <text font-family="SansSerif" font-size="18" font-weight="bold" text-anchor="middle" x="65" y="76">&gt;&gt;</text>
+      <circ-port height="8" pin="110,80" width="8" x="46" y="66"/>
+      <circ-port height="10" pin="240,80" width="10" x="75" y="65"/>
+      <circ-anchor facing="east" height="6" width="6" x="77" y="67"/>
+    </appear>
     <wire from="(150,70)" to="(180,70)"/>
     <wire from="(180,90)" to="(210,90)"/>
     <wire from="(180,100)" to="(210,100)"/>
@@ -191,6 +225,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M61,56 Q65,66 69,56" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="30" x="50" y="55"/>
+      <text font-family="SansSerif" font-size="18" font-weight="bold" text-anchor="middle" x="65" y="76">&lt;&lt;</text>
+      <circ-port height="8" pin="110,80" width="8" x="46" y="66"/>
+      <circ-port height="10" pin="240,80" width="10" x="75" y="65"/>
+      <circ-anchor facing="east" height="6" width="6" x="77" y="67"/>
+    </appear>
     <wire from="(180,90)" to="(210,90)"/>
     <wire from="(150,60)" to="(180,60)"/>
     <wire from="(150,70)" to="(180,70)"/>
@@ -233,7 +275,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit4" val="1"/>
       <a name="bit5" val="1"/>
       <a name="bit6" val="1"/>
-      <a name="bit7" val="0"/>
+      <a name="bit7" val="1"/>
     </comp>
   </circuit>
 </project>
