@@ -1,21 +1,22 @@
 # RealALU
-**Input**
+### Input
 
-* inA (7:0)
-* inB (7:0)
-* aluOp (3:0)
+- **inA** (7:0)
+- **inB** (7:0)
+- **aluOp** (3:0)
 
-**Output**
+### Output
 
-* aluOut (0:7)
-* V _overflow, 1 se C != aluOut[7]_
-* C _carry, = aluOut[8]_
-* Z _zero, 1 se out == 00000000_
-* N _segno, = aluOut[7]_
+- **aluOut** (0:7)
+- **V** _overflow, 1 se C != aluOut[7]_
+- **C** _carry, = aluOut[8]_
+- **Z** _zero, 1 se out == 00000000_
+- **N** _segno, = aluOut[7]_
 
-**Comandi**
+### Comandi
 
 ```
+N | BIN  | ISTRUZIONE  | TIPOOPERAZ | FLAG
 0 | 0000 | inA and inB | Logica     | ---Z
 1 | 0001 | inA or inB  | Logica     | ---Z
 2 | 0010 | NOT inB     | Logica     | ---Z
