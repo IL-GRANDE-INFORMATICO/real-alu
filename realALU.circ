@@ -457,6 +457,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="8" pin="110,40" width="8" x="56" y="76"/>
       <circ-port height="10" pin="540,200" width="10" x="75" y="65"/>
       <circ-port height="10" pin="540,280" width="10" x="75" y="75"/>
+      <circ-port height="10" pin="540,320" width="10" x="75" y="85"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
     <wire from="(360,200)" to="(420,200)"/>
@@ -470,6 +471,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(150,60)" to="(200,60)"/>
     <wire from="(300,60)" to="(300,80)"/>
     <wire from="(180,70)" to="(180,90)"/>
+    <wire from="(390,240)" to="(390,320)"/>
     <wire from="(260,40)" to="(260,60)"/>
     <wire from="(360,220)" to="(400,220)"/>
     <wire from="(400,230)" to="(440,230)"/>
@@ -485,6 +487,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(420,210)" to="(440,210)"/>
     <wire from="(110,40)" to="(260,40)"/>
     <wire from="(520,200)" to="(540,200)"/>
+    <wire from="(390,320)" to="(540,320)"/>
     <wire from="(110,80)" to="(130,80)"/>
     <wire from="(230,80)" to="(240,80)"/>
     <wire from="(360,160)" to="(440,160)"/>
@@ -536,6 +539,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(540,320)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="N (1 if out[7] == 1)"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(230,80)" name="Splitter">
