@@ -27,3 +27,15 @@
 8 | 1000 | dec inB     | Aritmetica | VNCZ
 9 | 1001 | inA         | Aritmetica | -N-Z
 ```
+
+## Da fare
+- [x] inA and inB
+- [x] inA or inB
+- [x] NOT inB
+- [ ] LSL inB (0)
+- [ ] LSR inB (0)
+- [ ] inA add inB
+- [ ] inA sub inB
+- [ ] inc inB
+- [ ] dec inB
+- [ ] inA
