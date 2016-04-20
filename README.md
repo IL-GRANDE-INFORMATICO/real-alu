@@ -30,13 +30,13 @@ N | BIN  | ISTRUZIONE  | TIPOOPERAZ | FLAG
 ```
 
 ## Da fare
-- [x] inA and inB
-- [x] inA or inB
+- [x] inA AND inB
+- [x] inA OR inB
 - [x] NOT inB
-- [x] LSL inB (0)
-- [x] LSR inB (0)
-- [ ] inA add inB
-- [ ] inA sub inB
-- [ ] inc inB
-- [ ] dec inB
+- [x] LSL (0) _shift a sinistra_
+- [x] LSR inB (0) _shift a destra_
+- [ ] inA ADD inB _somma tra byte_
+- [ ] inA SUB inB _sottrazione tra byte_
+- [ ] inc inB _aumenta di 1 l'ingresso B_
+- [ ] dec inB _decrementa di 1 l'ingresso B_
 - [ ] inA
