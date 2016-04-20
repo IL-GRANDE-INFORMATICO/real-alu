@@ -1,13 +1,13 @@
 # RealALU
 ### Input
 
-- **inA** (7:0)
-- **inB** (7:0)
-- **aluOp** (3:0)
+- **inA** (7:0) _primo operando_
+- **inB** (7:0) _secondo operando_
+- **aluOp** (3:0) _selettore dell'operazione da eseguire_
 
 ### Output
 
-- **aluOut** (0:7)
+- **aluOut** (0:7) _risultato dell'operazione_
 - **V** _overflow, 1 se C != aluOut[7]_
 - **C** _carry, = aluOut[8]_
 - **Z** _zero, 1 se out == 00000000_
